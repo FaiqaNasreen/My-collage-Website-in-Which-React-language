@@ -1,2 +1,4 @@
-# My-collage-Website
-<h2>Hellow welcom</h2>
+# collage-Website
+<h2>This is my react Project</h2>
+<br>
+<p>Auther: FaiqaNasreen</p>
