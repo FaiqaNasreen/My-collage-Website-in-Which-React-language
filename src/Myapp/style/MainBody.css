@@ -1,0 +1,24 @@
+.main-body {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Media query for tablets */
+  @media (min-width: 768px) {
+    .main-body {
+      padding: 0px;
+    }
+  }
+  
+  /* Media query for desktop screens */
+  @media (min-width: 1024px) {
+    .main-body {
+      padding: 30px;
+    }
+  }
+  
+  
+  
+  
+  
+  

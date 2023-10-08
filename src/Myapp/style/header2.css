@@ -1,0 +1,85 @@
+/* Header container styles */
+.header {
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #fff6f6;
+    color: rgb(10, 6, 6);
+    margin:40px 16px 25px 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+    max-width: 100%;
+  }
+  .logo {
+    margin: -26px 85px -21px 44px;
+   
+  }
+  /* Search bar styles */
+  .search-bar {
+ 
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap; 
+    max-width: 100%;
+  }
+  
+  .search-bar input[type="text"] {
+    background-color: #ccd875;
+    padding: 5px;
+    border: none;
+    border-radius: 15px;
+    height: 35px;
+    width: 356px;
+  }
+  input:hover{
+    color: #140d0d;
+  }
+  .search-bar button {
+    padding: 5px 10px;
+    background-color: #2b2c23;
+    color: rgb(252, 253, 251);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  /* Dropdown styles */
+  .dropdown-button {
+    position: relative;
+    cursor: pointer;
+    border-radius: 30px;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-button:hover .dropdown-content {
+    display: block;
+  color: #fff6f6;
+  }
+  
+  .dropdown-content a {
+    color: rgb(22, 20, 20);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+   
+  }
+  
+  /* Action button styles */
+  .action-button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

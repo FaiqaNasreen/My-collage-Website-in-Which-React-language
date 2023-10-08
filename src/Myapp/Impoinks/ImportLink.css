@@ -1,0 +1,38 @@
+/* Add this CSS to your stylesheet or CSS file */
+.responsive-links {
+    width: 100%;
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 20px;
+    margin: 11px 30px 75px 10px;
+    border: 1px solid #ccc;
+}
+  
+  
+  .responsive-links ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .responsive-links li {
+    margin-bottom: 10px; /* Adjust the spacing between links */
+  }
+  
+  .responsive-links a {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #ffffff; /* Background color */
+    color: #521ce7; /* Text color */
+    text-align: left;
+    text-decoration: underline;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Hover effect */
+  }
+  
+  .responsive-links a:hover {
+    background-color: #e3e8ec; /* Change to your desired hover background color */
+    color: #200505;
+    
+  }

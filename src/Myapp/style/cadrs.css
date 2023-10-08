@@ -1,0 +1,28 @@
+/* Card layout container styles */
+.card-layout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 95px 31px 120px 27px;
+  }
+  
+  /* Card styles */
+  .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width:400px;
+    flex-direction: column;
+    
+  }
+  .card img{
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  

@@ -1,0 +1,22 @@
+.App {
+  color: #0c0a0a; /* Change to your desired text color */
+ 
+  cursor: pointer;
+  flex-wrap: wrap; 
+ color: black;
+}
+
+/* .App-header {
+  background-color: #34556b;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(7, 6, 6);
+} */
+
+.App-link {
+  color: #61dafb;
+} 
+    

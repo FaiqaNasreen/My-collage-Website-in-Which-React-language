@@ -1,0 +1,153 @@
+/* Header.css */
+
+/* Header container styles */
+.header {
+  max-width: 100%;
+  max-height: 100%;
+ 
+  padding: 10px 70px;
+}
+@media (max-width: 768px) {
+  .header {
+    font-size: 14px;
+  }
+}
+.d-inline{
+  position: relative;
+  cursor: pointer;
+  border-radius: 30px;
+
+}
+.Dropdown.Toggle{ padding: 5px 10px;
+background-color: #edf0f3;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+/* Dropdown button styles */
+.Dropdown.Menu {
+  position: relative;
+  cursor: pointer;
+  flex-wrap: wrap; 
+  max-width: 100%;
+}
+
+
+.dropdown-cont {
+  display: none;
+  position: absolute;
+  background-color: #181010;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  max-width: 100%;
+  max-height: auto;
+}
+
+.Dropdown.Menu:hover .dropdown-cont {
+  display: block;
+}
+.Dropdown.Item{
+  color: rgb(247, 247, 247);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 17px;
+  border-radius: 10px 10px 10px 10px;
+}
+.Dropdown.Menu {
+  color: rgb(247, 247, 247);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 17px;
+  border-radius: 10px 10px 10px 10px;
+}
+.dropdown-cont:hover{
+  display: block;
+  background-color: #2e2007;
+}
+a:hover{
+  display: block;
+  background-color: #f0eae1;
+}
+/* Action button styles */
+.action-button {
+  padding: 5px 10px;
+  background-color: #edf0f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.icons{
+  margin:1px 53px -1px;
+  flex-wrap: wrap; 
+  max-width: 100%;
+}
+
+.icon{
+  margin: 12px 16px 2px 19px;
+}
+.content{
+  background-color: rgb(53, 37, 37);
+color: black;
+}
+/* headers css */
+.custom-button {
+  background-color: #ffffff; /* Background color */
+  color: #110f0f; /* Text color */
+  padding: 19px 58px; /* Padding around the text */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Cursor on hover */
+font-size: 20px;
+  /* Hover effect */
+  transition: background-color 0.3s ease;
+}
+.custom-button:hover{
+  background-color: #28517a; /* Background color on hover */
+  color: #fff; /* Text color on hover */
+  text-decoration: none; /* Remove underlines on hover */
+}
+
+/* Change background color on hover */
+.custom-dropdown-menu {
+  background-color: #ffffff; /* Background color */
+  border: 1px solid #ccc; /* Border */
+  border-radius: 4px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow */
+  padding: 0px; /* Padding inside the menu */
+  min-width: 200px; /* Minimum width */
+  z-index: 1000; /* Adjust the z-index as needed to ensure it appears above other content */
+
+}
+
+/* Style the menu items */
+.custom-dropdown-menu .dropdown-item {
+  color: #333; /* Text color */
+  padding: 8px 12px; /* Padding around each item */
+  text-decoration: none; /* Remove underlines */
+  display: block; /* Block-level display for each item */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Hover effect for menu items */
+.custom-dropdown-menu .dropdown-item:hover {
+  background-color: #28517a; /* Background color on hover */
+  color: #fff; /* Text color on hover */
+  text-decoration: none; /* Remove underlines on hover */
+}
+
+
+
+
+
+
+
+
+
+
+
+
